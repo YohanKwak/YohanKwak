@@ -1,0 +1,13 @@
+---
+:id: 130038125
+:submitters:
+- :name: JV VIRGIN
+  :email: u0832933@utah.edu
+- :name: YOHAN KWAK
+  :email: u0992389@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-08-02 23:27:09.583415000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-08-02 16:27:09.583415000 Z
+:status: processed
