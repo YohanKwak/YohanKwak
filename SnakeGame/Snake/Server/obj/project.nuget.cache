@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4CMwY05eI88ks8nzLB6MpVWPJtIUQsFws/ZpY8U5u2gSA5JBZe5MqjR2jdm9dLBhE3Ca842wqvj8QbcboSk1aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ravis\\Desktop\\Yohan Kwak\\school wotk\\CS3500\\snakesnake\\Snake\\Server\\Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ravis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ravis\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
