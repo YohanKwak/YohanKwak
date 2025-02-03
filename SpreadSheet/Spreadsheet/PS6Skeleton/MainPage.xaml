@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Created by: Yohan Kwak and Simon Whidden
+    Date: 10/21/2022
+    This is an XAML class that handles rendering for the SpreadsheetGrid.
+-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:SS="clr-namespace:SS"
+             x:Class="SpreadsheetGUI.MainPage"
+             BackgroundColor="Gray">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="File">
+            <MenuFlyoutItem Text="New" Clicked="NewClicked" />
+            <MenuFlyoutItem Text="Open" Clicked="OpenClicked" />
+            <MenuFlyoutItem Text="Save" Clicked="SaveClicked"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Help">
+            <MenuFlyoutItem Text="How to change selection" Clicked="ChangeSelectionHelpClicked" />
+            <MenuFlyoutItem Text="How to edit cell contents" Clicked="EditCellContentHelpClicked" />
+            <MenuFlyoutItem Text="Equation Formatting" Clicked="EquationFormatHelpClicked"/>
+            <MenuFlyoutItem Text="How to save/load" Clicked="SaveLoadHelpClicked" />
+            <MenuFlyoutItem Text="What are affected cells?" Clicked="DependentCellHelpClicked" />
+            <MenuFlyoutItem Text="Copy/Paste/Move" Clicked="CopyPasteMoveHelpClicked" />
+        </MenuBarItem>
+
+
+
+
+    </ContentPage.MenuBarItems>
+
+
+    <Grid RowSpacing="5"
+          ColumnSpacing="5">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="38" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="70" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Text="Name :"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label x:Name="cellName" Grid.Row="0" Grid.Column="1" Text="A1" BackgroundColor="White" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,6,0,0"/>
+        <Label Grid.Row="0" Grid.Column="2" Text="Value :"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label x:Name="cellValue" Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" Text="" BackgroundColor="White" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,6,10,0"/>
+        <Label Grid.Row="1" Grid.Column="0" Text="Contents :"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Entry x:Name="cellContents" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Text="" BackgroundColor="White" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Completed="EntryCompleted" Margin="9,0,9,0"/>
+
+        <SS:SpreadsheetGrid Grid.Row="2" Grid.ColumnSpan="6" x:Name="spreadsheetGrid"  />
+
+        <Label Grid.Row="3" Grid.Column="0" Text="Dependent Cells :"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Label x:Name="DependentCells" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Text="" BackgroundColor="White" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="10,0,7,6" LineBreakMode="WordWrap" MaxLines="1"/>
+
+        <Button x:Name="CopyButton"  Text ="Copy" Grid.Row="3" Grid.Column="3" BackgroundColor="AliceBlue" Margin="0,-4,5,-1" Clicked="CopyClicked"/>
+        <Button x:Name="PasteButton" Text ="Paste" Grid.Row="3" Grid.Column="4" BackgroundColor="AliceBlue" Margin="0,-4,5,-1" Clicked="PasteClicked"/>
+        <Button x:Name="MoveButton" Text ="Move" Grid.Row="3" Grid.Column="5" BackgroundColor="AliceBlue" Margin="0,-4,5,-1" Clicked="MoveClicked"/>
+
+    </Grid>
+
+
+</ContentPage>
+
