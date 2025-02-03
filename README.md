@@ -1,5 +1,6 @@
 ## Portfolio - Yohan Kwak
 
+Repositories for multiple peojects done by Yohan Kwak, Through the Academic Journey at Univesity of Utah.
 <!--
 **YohanKwak/YohanKwak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
