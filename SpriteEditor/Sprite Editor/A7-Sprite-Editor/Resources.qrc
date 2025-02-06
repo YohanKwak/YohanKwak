@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/backgroundImages">
+        <file>Resources/gridbackground.png</file>
+    </qresource>
+    <qresource prefix="/buttonIcons">
+        <file>Resources/paint-bucket.png</file>
+        <file>Resources/zoom-icon-png-8436.png</file>
+        <file>Resources/zoom-out.png</file>
+        <file>Resources/tiles.png</file>
+        <file>Resources/pause-button.png</file>
+        <file>Resources/play-button.png</file>
+        <file>Resources/paint-brush.png</file>
+        <file>Resources/eraser.png</file>
+    </qresource>
+</RCC>

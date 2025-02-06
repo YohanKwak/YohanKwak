@@ -1,0 +1,22 @@
+---
+:id: 173021537
+:submitters:
+- :name: AMELIA SMITH
+  :email: u1345968@utah.edu
+- :name: YAMIN ZHUANG
+  :email: u1396494@utah.edu
+- :name: LOGAN HUNTER
+  :email: u1342460@utah.edu
+- :name: MIGUEL MENDOZA
+  :email: u1302629@utah.edu
+- :name: MATTHEW ROGERS
+  :email: u1182721@utah.edu
+- :name: YOHAN KWAK
+  :email: u0992389@utah.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-04-06 14:55:56.965996000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-04-06 07:55:56.965996000 Z
+:status: processed
+:score: 93.0

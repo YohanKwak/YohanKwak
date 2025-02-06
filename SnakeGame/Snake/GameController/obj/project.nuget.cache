@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OAIo7+h2oplxfU32yk+b0SHuEFvCkvx3evz/g3n9KhaIFTjr7h4nQOvgDfXN3Z4pkrI7We3n7eJi59J5jPDkBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ravis\\Desktop\\Yohan Kwak\\school wotk\\CS3500\\snakesnake\\Snake\\GameController\\GameController.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ravis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ravis\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
